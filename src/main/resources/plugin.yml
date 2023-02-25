@@ -8,10 +8,10 @@ api-version: 1.14
 authors: [TheCoolestPaul]
 description: Adding another currency into Minecraft
 commands:
-  tokens:
+  gettoni:
     permission: tokens.use
     description: Main command for Tokens
-    usage: /tokens help
+    usage: /gettoni help
   redeem:
     permission: tokens.redeem
     description: Command for redeeming Tokens

@@ -80,7 +80,7 @@ public final class Tokens extends JavaPlugin {
 		messageHandler = new MessageHandler(this);
 		messageHandler.loadMessages();
 
-		tokensCommand = this.getCommand("tokens");
+		tokensCommand = this.getCommand("gettoni");
 		redeemCommand = this.getCommand("redeem");
 
 		redeemCommandExecutor = new RedeemCommandExecutor(this);
